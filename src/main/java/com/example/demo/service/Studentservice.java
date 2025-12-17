@@ -10,5 +10,6 @@ public interface StudentService{
     Studententity insertStdententity(Studententity newStudent);
     List<Studententity>getAllStudententity();
     Optional<Studententity>getOneStudententity(Long id);
-    void delete
+    void deleteStudent(Long id);
+    Student insertStudententity(Student st);
 }

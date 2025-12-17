@@ -35,6 +35,6 @@ public class studentctl{
     public Studententity updateStudent(
         @PathVariable int id,
         @RequestBody studententity st) {
-            return ser.update()
+            return ser.update(id, st);
         }
 }

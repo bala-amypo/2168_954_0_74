@@ -1,37 +1,3 @@
-// package com.example.demo.entity;
-
-// public class Studententity{
-//     private int id;
-//     private Sring name;
-
-//     public Studententity(){
-
-//     }
-//     public Studententity(int id,String name){
-//         this.id=id;
-//         this.name = name;
-
-//     }
-//     punic int getId(){
-//         return id;
-//     }
-//     public void setId(int id){
-//         this.id = id;
-//     }
-//     public String getName(){
-//         return name;
-
-//     }
-//     public void setName(){
-//         return name;
-//     }
-//     public void setName(String name){
-//         this.name = name;
-//     }
-// }
-
-
-
 package com.example.demo.entity;
 
 import java.time.LocalDate;

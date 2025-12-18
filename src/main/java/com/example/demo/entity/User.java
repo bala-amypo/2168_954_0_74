@@ -9,7 +9,6 @@ public class User {
     private Double cgpa;
     private LocalDate dob;
 
-    // Getters and setters
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 

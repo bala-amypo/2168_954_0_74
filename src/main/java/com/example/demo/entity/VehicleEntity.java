@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Vehicle {
+public class VehicleEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -16,18 +16,16 @@ public class Vehicle {
     private String model;
     private int year;
 
-    // No-args constructor (required by JPA)
-    public Vehicle() {
-    }
+    // Constructors
+    public VehicleEntity() {}
 
-    // Parameterized constructor
-    public Vehicle(String brand, String model, int year) {
+    public VehicleEntity(String brand, String model, int year) {
         this.brand = brand;
         this.model = model;
         this.year = year;
     }
 
-    // Getters and Setters
+    // Getters and setters
     public Long getId() {
         return id;
     }
